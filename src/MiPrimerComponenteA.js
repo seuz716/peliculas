@@ -1,9 +1,9 @@
 
 
-export default function MiPrimerComponente(){
+export default function MiPrimerComponenteA(){
     return(
         <> 
-            <h3>Mi primer Componente Funcional</h3>
+            <h3>Mi primer Componente Funcional A</h3>
             <span>Cesar Andres Abadia Dávila</span>
         </>
 
