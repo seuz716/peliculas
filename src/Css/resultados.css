@@ -1,3 +1,10 @@
+.busqueda input{
+    width: 100%;
+    line-height: 35px;
+    font-size: 16px;
+
+}
+
 .resultados{
     display: flex;
     justify-content: space-evenly;
@@ -7,4 +14,9 @@
 
 .resultados > * {
     flex-basis: 30%;
+}
+
+legend{
+    border: 5px;
+    border-color: blueviolet;
 }

@@ -4,22 +4,28 @@ export default function ResultadosBusqueda() {
     
     return(
         <>
-            <div>
+            <div className="busqueda">
                 <fieldset>
                     <legend> Buscar Pelicula</legend>
-                    <input type="text"/>
+                    <div>
+                        <input type="text" name="busqueda" id="busqueda"/>
+                    </div>
                 </fieldset>    
-            </div> 
-            <div className="resultados">
-                <Resultado />   
-                <Resultado />   
-                <Resultado />   
-                <Resultado /> 
-                <Resultado />   
-                   
-            </div>       
-        
-        
+             </div> 
+             
+             <div>    
+                 <fieldset>
+                    <legend> Listado Péliculas</legend>
+                     <div className="resultados">
+                        <Resultado />   
+                        <Resultado />   
+                        <Resultado />   
+                        <Resultado /> 
+                        <Resultado /> 
+                        <Resultado />     
+                    </div>       
+                </fieldset>
+            </div>
         </>
     );
 }
