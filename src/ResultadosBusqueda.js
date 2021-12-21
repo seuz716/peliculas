@@ -1,6 +1,12 @@
 import Resultado from "./Resultado";
 import './Css/resultados.css'
 export default function ResultadosBusqueda() {
+
+        function handleChange(event){
+            evento.preventDefault();
+            
+
+        }
     
     return(
         <>

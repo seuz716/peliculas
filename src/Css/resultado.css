@@ -1,0 +1,13 @@
+.resumen{
+    border: 2px solid mediumorchid;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.resumen-img > img{
+    width: 50%;
+}
+
+.resumen-img{
+    text-align: center;
+}
