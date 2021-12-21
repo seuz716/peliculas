@@ -4,7 +4,7 @@ export default function Resultado(){
     function handleClick(evento) {
         evento.stopPropagation();
         alert("Mostrar detalle de la pélicula....");
-
+        
         
     }
 
